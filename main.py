@@ -5,10 +5,16 @@ def hitung():
 
         pilihan = input("Masukkan pilihan: ")
         if pilihan == "1":
-           print("Pilihan 1")
+            panjang = int(input("Masukkan panjang: "))
+            lebar = int(input("Masukkan lebar: "))
+            keliling = 2 * (panjang + lebar)
+            print("Keliling persegi panjang adalah", keliling)  
 
         elif pilihan == "2":
-            print("Pilihan 2")
+            panjang = int(input("Masukkan panjang: "))
+            lebar = int(input("Masukkan lebar: "))
+            luas = panjang * lebar
+            print("Luas persegi panjang adalah", luas)
 
         else:
             print("Tidak ada pilihan")
